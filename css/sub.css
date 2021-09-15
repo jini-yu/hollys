@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+#container div {float: none;}
+#container .text {line-height: 1.7; margin-bottom: 25px;}
+
+/*left-area*/
+.left-area {
+    float: left;
+    width: 220px;
+}
+.left-area .lnb {}
+.left-area .lnb li {margin-bottom: 5px;}
+.left-area .lnb li a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: -1px;
+}
+.left-area .lnb a.on {color: #b20000;}
+.left-area .sub-lnb {margin-left: 15px;}
+/*.left-area .sbu-lnb li {margin-bottom: 3px;}*/
+.left-area .sub-lnb li a {
+    color: #444;
+    font-size: 17px;
+    font-weight: 500;
+}
+.left-area .left-banner {
+    margin-top: 30px; 
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #ccc;
+}
+.left-area .left-banner strong {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    font-weight: 500; 
+    color: #444;
+    text-transform: uppercase;
+}
+
+/*contents*/
+.contents {
+    float: right;
+    width: 680px;
+}
+.contents .location {font-size: 14px; color: #999; margin-bottom: 25px;}
+.contents h2 {font-size: 28px; font-weight: 700; color: #111; margin-bottom: 30px;}
+.contents .about-bg {
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    background: url(../img/sub/img_about_hollys.jpg) no-repeat center;
+}
+.contents .about-bg .text-group {
+    position: absolute;
+    top: 40px; left: 25px;
+}
+.contents .about-bg .text-group span {font-size: 18px; color: #ddd;}
+.contents .about-bg .text-group strong {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #eee;
+}
+.contents .about-bg .text-group p {margin-top: 30px; color: #ddd;}
+
+.contents article {margin-bottom: 40px;}
+.contents article img {max-width: 100%; margin-top: 30px;}
+.contents .about-cont strong {
+    display: block; 
+    margin-bottom: 24px; 
+    color: #b20000; 
+    font-weight: 700;
+}
+.contents .about-cont + .about-cont .text {
+    column-count: 2; /*다단갯수*/
+    column-gap: 40px; /*다단사이의 여백*/
+    margin-bottom: 0
+}
+
+
+
+
+
+
+
